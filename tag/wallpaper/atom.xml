@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yun2060.github.io</id>
+    <title>welcome • Posts by &#34;wallpaper&#34; tag</title>
+    <link href="https://yun2060.github.io" />
+    <updated>2024-01-22T04:32:09.390Z</updated>
+    <category term="hexo" />
+    <category term="Java" />
+    <category term="Wallpaper" />
+    <category term="Python" />
+    <category term="数据结构" />
+    <entry>
+        <id>https://yun2060.github.io/2024/01/22/Others/%E6%8F%90%E5%8F%96wallpaper%E5%A3%81%E7%BA%B8/</id>
+        <title>提取wallpaper静态壁纸</title>
+        <link rel="alternate" href="https://yun2060.github.io/2024/01/22/Others/%E6%8F%90%E5%8F%96wallpaper%E5%A3%81%E7%BA%B8/"/>
+        <content type="html">&lt;h1 id=&#34;提取wallpaper静态壁纸&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#提取wallpaper静态壁纸&#34;&gt;#&lt;/a&gt; 提取 wallpaper 静态壁纸&lt;/h1&gt;
+&lt;p&gt;电脑配置很低，如果一直开着 WallpaperEngine 也是十分消耗资源，于是想着将好看的静态壁纸提取出来，上网搜了一下发现大家都在使用 repkg 来实现，于是就有了这篇文章。&lt;/p&gt;
+&lt;h2 id=&#34;一-准备工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-准备工作&#34;&gt;#&lt;/a&gt; 一、准备工作&lt;/h2&gt;
+&lt;p&gt;1. 下载 repkg，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL25vdHNjdWZmZWQvcmVwa2c=&#34;&gt;github 链接&lt;/span&gt;。&lt;br /&gt;
+&lt;img data-src=&#34;relese.png&#34; alt=&#34;release界面&#34; /&gt;&lt;br /&gt;
+ 2. 准备好需要提取的壁纸。&lt;/p&gt;
+&lt;h2 id=&#34;二-使用步骤&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-使用步骤&#34;&gt;#&lt;/a&gt; 二、使用步骤&lt;/h2&gt;
+&lt;p&gt;1. 把下载的 repkg.exe 放入一个空文件夹，可以在文件路径下新建一个输出文件夹，命名为 output。&lt;br /&gt;
+&lt;img data-src=&#34;repkg.png&#34; alt=&#34;repkg文件夹&#34; /&gt;&lt;br /&gt;
+ 2. 在 repkg 文件夹下按住 shift 点击右键，打开 powershell。&lt;br /&gt;
+&lt;img data-src=&#34;menu_expoler.png&#34; alt=&#34;文件管理右键菜单&#34; /&gt;&lt;br /&gt;
+ 3. 打开需要提取的壁纸文件夹，找到对应的 pkg 文件。&lt;br /&gt;
+&lt;img data-src=&#34;menu_wallpaper.png&#34; alt=&#34;壁纸右键菜单&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;pkg.png&#34; alt=&#34;pkg文件&#34; /&gt;&lt;br /&gt;
+ 4. 在 powershell 中输入.\repkg.exe extract , 然后把 pkg 文件拖入 powershell 窗口中，补上命令 - o .\output 后回车（注意箭头处要有空格）。&lt;br /&gt;
+&lt;img data-src=&#34;powershell.png&#34; alt=&#34;powershell&#34; /&gt;&lt;br /&gt;
+5. 成功后会在 output 文件夹下生成一个壁纸文件夹，里面有提取出来的壁纸。&lt;br /&gt;
+&lt;img data-src=&#34;success.png&#34; alt=&#34;success&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;wallpaper.png&#34; alt=&#34;wallpaper&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="Wallpaper" />
+        <updated>2024-01-22T04:32:09.390Z</updated>
+    </entry>
+</feed>
