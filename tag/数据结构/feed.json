@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "welcome • All posts by \"数据结构\" tag",
+    "description": "欢迎来到Amos Yun的笔记空间😏在这里，你可以阅读我的学习笔记并提出独到的见解🤩欢迎互相交流学习知识，共同进步🎉",
+    "home_page_url": "https://yun2060.github.io",
+    "items": [
+        {
+            "id": "https://yun2060.github.io/2023/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%9D%E8%AF%86/",
+            "url": "https://yun2060.github.io/2023/08/23/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%9D%E8%AF%86/",
+            "title": "数据结构初识",
+            "date_published": "2023-08-23T08:01:14.239Z",
+            "content_html": "",
+            "tags": [
+                "数据结构"
+            ]
+        }
+    ]
+}
