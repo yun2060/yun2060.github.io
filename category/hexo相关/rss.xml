@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>welcome • Posts by &#34;hexo相关&#34; category</title>
+        <title> • Posts by &#34;hexo相关&#34; category</title>
         <link>https://yun2060.github.io</link>
         <description>欢迎来到Amos Yun的笔记空间😏在这里，你可以阅读我的学习笔记并提出独到的见解🤩欢迎互相交流学习知识，共同进步🎉</description>
         <language>zh-CN</language>
@@ -13,9 +13,9 @@
         <category>Python</category>
         <category>数据结构</category>
         <item>
-            <guid isPermalink="true">https://yun2060.github.io/2023/08/14/Hexo/hello-world/</guid>
+            <guid isPermalink="true">https://yun2060.github.io/[object%20Object]/Hexo/hello-world/</guid>
             <title>Hello World</title>
-            <link>https://yun2060.github.io/2023/08/14/Hexo/hello-world/</link>
+            <link>https://yun2060.github.io/[object%20Object]/Hexo/hello-world/</link>
             <category>hexo</category>
             <pubDate>Mon, 14 Aug 2023 20:44:29 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;

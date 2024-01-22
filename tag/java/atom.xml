@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yun2060.github.io</id>
-    <title>welcome • Posts by &#34;java&#34; tag</title>
+    <title> • Posts by &#34;java&#34; tag</title>
     <link href="https://yun2060.github.io" />
     <updated>2023-08-19T03:11:22.271Z</updated>
     <category term="hexo" />
@@ -10,9 +10,9 @@
     <category term="Python" />
     <category term="数据结构" />
     <entry>
-        <id>https://yun2060.github.io/2023/08/19/Java/Java1/</id>
+        <id>https://yun2060.github.io/[object%20Object]/Java/Java1/</id>
         <title>Hello Java</title>
-        <link rel="alternate" href="https://yun2060.github.io/2023/08/19/Java/Java1/"/>
+        <link rel="alternate" href="https://yun2060.github.io/[object%20Object]/Java/Java1/"/>
         <content type="html">&lt;h1 id=&#34;hello-java&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hello-java&#34;&gt;#&lt;/a&gt; hello java!&lt;/h1&gt;
 </content>
         <category term="Java" />
