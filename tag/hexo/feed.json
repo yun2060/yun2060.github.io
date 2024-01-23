@@ -5,6 +5,17 @@
     "home_page_url": "https://yun2060.github.io",
     "items": [
         {
+            "id": "https://yun2060.github.io/Hexo/%E4%BD%BF%E7%94%A8hexo%E5%91%BD%E4%BB%A4%E5%88%9B%E5%BB%BA%E6%96%B0%E6%96%87%E7%AB%A0/",
+            "url": "https://yun2060.github.io/Hexo/%E4%BD%BF%E7%94%A8hexo%E5%91%BD%E4%BB%A4%E5%88%9B%E5%BB%BA%E6%96%B0%E6%96%87%E7%AB%A0/",
+            "title": "使用hexo命令创建新文章",
+            "date_published": "2024-01-23T06:41:10.000Z",
+            "content_html": "<h2 id=\"使用hexo命令创建新文章\"><a class=\"anchor\" href=\"#使用hexo命令创建新文章\">#</a> 使用 hexo 命令创建新文章</h2>\n<p>之前一直都是直接创建文件夹的方式来写文章，但是会有各种各样的 bug。去网上搜了下发现直接使用 hexo 命令是最简单的方法，于是这次用 hexo 来创建新文章。</p>\n<h3 id=\"使用命令\"><a class=\"anchor\" href=\"#使用命令\">#</a> 使用命令</h3>\n<p><code>hexo new &quot;文章标题&quot;</code></p>\n<h3 id=\"使用说明\"><a class=\"anchor\" href=\"#使用说明\">#</a> 使用说明</h3>\n<p>由于我有时会有图片说明，所以开启了 hexo 的资源引用功能。将_config.yml 中的 <code>post_asset_folder</code>  设置为 <code>true</code>  即可。</p>\n<figure class=\"highlight yaml\"><figcaption data-lang=\"YAML\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token key atrule\">post_asset_folder</span><span class=\"token punctuation\">:</span> <span class=\"token boolean important\">true</span></pre></td></tr></table></figure><p>这样使用命令创建 md 文件的同时也会在 <code>source/_posts</code>  文件夹下创建一个文件夹，文件夹名为 <code>文章标题</code> 。之后我再将文件拖入对应的分类即可。<br />\n<img data-src=\"docs.png\" alt=\"文件分布\" /><br />\n最后生成部署，一气呵成，但是应该有更便捷的方法，我暂时还不清楚😭，等之后再进行学习修改吧。</p>\n",
+            "tags": [
+                "教程",
+                "Hexo"
+            ]
+        },
+        {
             "id": "https://yun2060.github.io/Hexo/hello-world/",
             "url": "https://yun2060.github.io/Hexo/hello-world/",
             "title": "Hello World",

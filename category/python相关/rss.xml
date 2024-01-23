@@ -7,16 +7,20 @@
         <language>zh-CN</language>
         <pubDate>Sat, 20 Jan 2024 12:56:38 +0800</pubDate>
         <lastBuildDate>Sat, 20 Jan 2024 12:56:38 +0800</lastBuildDate>
+        <category>数据结构</category>
         <category>hexo</category>
         <category>Java</category>
         <category>Wallpaper</category>
+        <category>教程</category>
         <category>Python</category>
-        <category>数据结构</category>
+        <category>遇到的问题</category>
+        <category>Hexo</category>
         <item>
             <guid isPermalink="true">https://yun2060.github.io/Python/python2/</guid>
             <title>Python中遇到的问题</title>
             <link>https://yun2060.github.io/Python/python2/</link>
             <category>Python</category>
+            <category>遇到的问题</category>
             <pubDate>Sat, 20 Jan 2024 12:56:38 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;解决切换python仓库的问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决切换python仓库的问题&#34;&gt;#&lt;/a&gt; 解决切换 python 仓库的问题&lt;/h1&gt;
 &lt;p&gt;今天在 vscode 中使用 python 时发现一个问题，很多包在 1 号仓库中拥有，而常用的却是 2 号仓库，所以就想切换一下，但是意外发现自己连切换仓库都不会了，于是打算记录一下。&lt;/p&gt;

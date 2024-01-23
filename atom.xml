@@ -3,23 +3,44 @@
     <id>https://yun2060.github.io</id>
     <title></title>
     <link href="https://yun2060.github.io" />
-    <updated>2024-01-22T04:32:09.390Z</updated>
+    <updated>2024-01-23T06:41:10.000Z</updated>
+    <category term="数据结构" />
     <category term="hexo" />
     <category term="Java" />
     <category term="Wallpaper" />
+    <category term="教程" />
     <category term="Python" />
-    <category term="数据结构" />
+    <category term="遇到的问题" />
+    <category term="Hexo" />
+    <entry>
+        <id>https://yun2060.github.io/Hexo/%E4%BD%BF%E7%94%A8hexo%E5%91%BD%E4%BB%A4%E5%88%9B%E5%BB%BA%E6%96%B0%E6%96%87%E7%AB%A0/</id>
+        <title>使用hexo命令创建新文章</title>
+        <link rel="alternate" href="https://yun2060.github.io/Hexo/%E4%BD%BF%E7%94%A8hexo%E5%91%BD%E4%BB%A4%E5%88%9B%E5%BB%BA%E6%96%B0%E6%96%87%E7%AB%A0/"/>
+        <content type="html">&lt;h2 id=&#34;使用hexo命令创建新文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用hexo命令创建新文章&#34;&gt;#&lt;/a&gt; 使用 hexo 命令创建新文章&lt;/h2&gt;
+&lt;p&gt;之前一直都是直接创建文件夹的方式来写文章，但是会有各种各样的 bug。去网上搜了下发现直接使用 hexo 命令是最简单的方法，于是这次用 hexo 来创建新文章。&lt;/p&gt;
+&lt;h3 id=&#34;使用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用命令&#34;&gt;#&lt;/a&gt; 使用命令&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;hexo new &amp;quot;文章标题&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;使用说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用说明&#34;&gt;#&lt;/a&gt; 使用说明&lt;/h3&gt;
+&lt;p&gt;由于我有时会有图片说明，所以开启了 hexo 的资源引用功能。将_config.yml 中的 &lt;code&gt;post_asset_folder&lt;/code&gt;  设置为 &lt;code&gt;true&lt;/code&gt;  即可。&lt;/p&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;post_asset_folder&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这样使用命令创建 md 文件的同时也会在 &lt;code&gt;source/_posts&lt;/code&gt;  文件夹下创建一个文件夹，文件夹名为 &lt;code&gt;文章标题&lt;/code&gt; 。之后我再将文件拖入对应的分类即可。&lt;br /&gt;
+&lt;img data-src=&#34;docs.png&#34; alt=&#34;文件分布&#34; /&gt;&lt;br /&gt;
+最后生成部署，一气呵成，但是应该有更便捷的方法，我暂时还不清楚😭，等之后再进行学习修改吧。&lt;/p&gt;
+</content>
+        <category term="教程" />
+        <category term="Hexo" />
+        <updated>2024-01-23T06:41:10.000Z</updated>
+    </entry>
     <entry>
         <id>https://yun2060.github.io/Others/%E6%8F%90%E5%8F%96wallpaper%E5%A3%81%E7%BA%B8/</id>
         <title>提取wallpaper静态壁纸</title>
         <link rel="alternate" href="https://yun2060.github.io/Others/%E6%8F%90%E5%8F%96wallpaper%E5%A3%81%E7%BA%B8/"/>
         <content type="html">&lt;h1 id=&#34;提取wallpaper静态壁纸&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#提取wallpaper静态壁纸&#34;&gt;#&lt;/a&gt; 提取 wallpaper 静态壁纸&lt;/h1&gt;
 &lt;p&gt;电脑配置很低，如果一直开着 WallpaperEngine 也是十分消耗资源，于是想着将好看的静态壁纸提取出来，上网搜了一下发现大家都在使用 repkg 来实现，于是就有了这篇文章。&lt;/p&gt;
-&lt;h2 id=&#34;一-准备工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-准备工作&#34;&gt;#&lt;/a&gt; 一、准备工作&lt;/h2&gt;
+&lt;h2 id=&#34;准备工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备工作&#34;&gt;#&lt;/a&gt; 准备工作&lt;/h2&gt;
 &lt;p&gt;1. 下载 repkg，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL25vdHNjdWZmZWQvcmVwa2c=&#34;&gt;Github 链接&lt;/span&gt;。&lt;br /&gt;
 &lt;img data-src=&#34;relese.png&#34; alt=&#34;release界面&#34; /&gt;&lt;br /&gt;
  2. 准备好需要提取的壁纸。&lt;/p&gt;
-&lt;h2 id=&#34;二-使用步骤&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-使用步骤&#34;&gt;#&lt;/a&gt; 二、使用步骤&lt;/h2&gt;
+&lt;h2 id=&#34;使用步骤&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用步骤&#34;&gt;#&lt;/a&gt; 使用步骤&lt;/h2&gt;
 &lt;p&gt;1. 把下载的 repkg.exe 放入一个空文件夹，可以在文件路径下新建一个输出文件夹，命名为 output。&lt;br /&gt;
 &lt;img data-src=&#34;repkg.png&#34; alt=&#34;repkg文件夹&#34; /&gt;&lt;br /&gt;
  2. 在 repkg 文件夹下按住 shift 点击右键，打开 powershell。&lt;br /&gt;
@@ -34,6 +55,7 @@
 &lt;img data-src=&#34;wallpaper.png&#34; alt=&#34;wallpaper&#34; /&gt;&lt;/p&gt;
 </content>
         <category term="Wallpaper" />
+        <category term="教程" />
         <updated>2024-01-22T04:32:09.390Z</updated>
     </entry>
     <entry>
@@ -45,12 +67,13 @@
 &lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h2&gt;
 </content>
         <category term="Python" />
+        <category term="遇到的问题" />
         <updated>2024-01-20T04:56:38.713Z</updated>
     </entry>
     <entry>
-        <id>https://yun2060.github.io/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%9D%E8%AF%86/</id>
+        <id>https://yun2060.github.io/DataStructure/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%9D%E8%AF%86/</id>
         <title>数据结构初识</title>
-        <link rel="alternate" href="https://yun2060.github.io/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%9D%E8%AF%86/"/>
+        <link rel="alternate" href="https://yun2060.github.io/DataStructure/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%9D%E8%AF%86/"/>
         <content type="html"></content>
         <category term="数据结构" />
         <updated>2023-08-23T08:01:14.239Z</updated>
