@@ -8,19 +8,19 @@
         <pubDate>Mon, 22 Jan 2024 12:32:09 +0800</pubDate>
         <lastBuildDate>Mon, 22 Jan 2024 12:32:09 +0800</lastBuildDate>
         <category>数据结构</category>
+        <category>Hexo</category>
+        <category>教程</category>
         <category>hexo</category>
         <category>Java</category>
         <category>Wallpaper</category>
-        <category>教程</category>
         <category>Python</category>
         <category>遇到的问题</category>
-        <category>Hexo</category>
         <item>
             <guid isPermalink="true">https://yun2060.github.io/Others/%E6%8F%90%E5%8F%96wallpaper%E5%A3%81%E7%BA%B8/</guid>
             <title>提取wallpaper静态壁纸</title>
             <link>https://yun2060.github.io/Others/%E6%8F%90%E5%8F%96wallpaper%E5%A3%81%E7%BA%B8/</link>
-            <category>Wallpaper</category>
             <category>教程</category>
+            <category>Wallpaper</category>
             <pubDate>Mon, 22 Jan 2024 12:32:09 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;提取wallpaper静态壁纸&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#提取wallpaper静态壁纸&#34;&gt;#&lt;/a&gt; 提取 wallpaper 静态壁纸&lt;/h1&gt;
 &lt;p&gt;电脑配置很低，如果一直开着 WallpaperEngine 也是十分消耗资源，于是想着将好看的静态壁纸提取出来，上网搜了一下发现大家都在使用 repkg 来实现，于是就有了这篇文章。&lt;/p&gt;

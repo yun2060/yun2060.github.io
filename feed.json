@@ -11,8 +11,8 @@
             "date_published": "2024-01-23T06:41:10.000Z",
             "content_html": "<h2 id=\"使用hexo命令创建新文章\"><a class=\"anchor\" href=\"#使用hexo命令创建新文章\">#</a> 使用 hexo 命令创建新文章</h2>\n<p>之前一直都是直接创建文件夹的方式来写文章，但是会有各种各样的 bug。去网上搜了下发现直接使用 hexo 命令是最简单的方法，于是这次用 hexo 来创建新文章。</p>\n<h3 id=\"使用命令\"><a class=\"anchor\" href=\"#使用命令\">#</a> 使用命令</h3>\n<p><code>hexo new &quot;文章标题&quot;</code></p>\n<h3 id=\"使用说明\"><a class=\"anchor\" href=\"#使用说明\">#</a> 使用说明</h3>\n<p>由于我有时会有图片说明，所以开启了 hexo 的资源引用功能。将_config.yml 中的 <code>post_asset_folder</code>  设置为 <code>true</code>  即可。</p>\n<figure class=\"highlight yaml\"><figcaption data-lang=\"YAML\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token key atrule\">post_asset_folder</span><span class=\"token punctuation\">:</span> <span class=\"token boolean important\">true</span></pre></td></tr></table></figure><p>这样使用命令创建 md 文件的同时也会在 <code>source/_posts</code>  文件夹下创建一个文件夹，文件夹名为 <code>文章标题</code> 。之后我再将文件拖入对应的分类即可。<br />\n<img data-src=\"docs.png\" alt=\"文件分布\" /><br />\n最后生成部署，一气呵成，但是应该有更便捷的方法，我暂时还不清楚😭，等之后再进行学习修改吧。</p>\n",
             "tags": [
-                "教程",
-                "Hexo"
+                "Hexo",
+                "教程"
             ]
         },
         {
@@ -22,8 +22,8 @@
             "date_published": "2024-01-22T04:32:09.390Z",
             "content_html": "<h1 id=\"提取wallpaper静态壁纸\"><a class=\"anchor\" href=\"#提取wallpaper静态壁纸\">#</a> 提取 wallpaper 静态壁纸</h1>\n<p>电脑配置很低，如果一直开着 WallpaperEngine 也是十分消耗资源，于是想着将好看的静态壁纸提取出来，上网搜了一下发现大家都在使用 repkg 来实现，于是就有了这篇文章。</p>\n<h2 id=\"准备工作\"><a class=\"anchor\" href=\"#准备工作\">#</a> 准备工作</h2>\n<p>1. 下载 repkg，<span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL25vdHNjdWZmZWQvcmVwa2c=\">Github 链接</span>。<br />\n<img data-src=\"relese.png\" alt=\"release界面\" /><br />\n 2. 准备好需要提取的壁纸。</p>\n<h2 id=\"使用步骤\"><a class=\"anchor\" href=\"#使用步骤\">#</a> 使用步骤</h2>\n<p>1. 把下载的 repkg.exe 放入一个空文件夹，可以在文件路径下新建一个输出文件夹，命名为 output。<br />\n<img data-src=\"repkg.png\" alt=\"repkg文件夹\" /><br />\n 2. 在 repkg 文件夹下按住 shift 点击右键，打开 powershell。<br />\n<img data-src=\"menu_expoler.png\" alt=\"文件管理右键菜单\" /><br />\n 3. 打开需要提取的壁纸文件夹，找到对应的 pkg 文件。<br />\n<img data-src=\"menu_wallpaper.png\" alt=\"壁纸右键菜单\" /><br />\n<img data-src=\"pkg.png\" alt=\"pkg文件\" /><br />\n 4. 在 powershell 中输入 <code>.\\repkg.exe extract</code> , 然后把 pkg 文件拖入 powershell 窗口中，补上命令 <code>-o .\\output</code>  后回车（注意箭头处要有空格）。<br />\n<img data-src=\"powershell.png\" alt=\"powershell\" /><br />\n5. 成功后会在 output 文件夹下生成一个壁纸文件夹，里面有提取出来的壁纸。<br />\n<img data-src=\"success.png\" alt=\"success\" /><br />\n<img data-src=\"wallpaper.png\" alt=\"wallpaper\" /></p>\n",
             "tags": [
-                "Wallpaper",
-                "教程"
+                "教程",
+                "Wallpaper"
             ]
         },
         {

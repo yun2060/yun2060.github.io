@@ -5,13 +5,13 @@
     <link href="https://yun2060.github.io" />
     <updated>2024-01-22T04:32:09.390Z</updated>
     <category term="数据结构" />
+    <category term="Hexo" />
+    <category term="教程" />
     <category term="hexo" />
     <category term="Java" />
     <category term="Wallpaper" />
-    <category term="教程" />
     <category term="Python" />
     <category term="遇到的问题" />
-    <category term="Hexo" />
     <entry>
         <id>https://yun2060.github.io/Others/%E6%8F%90%E5%8F%96wallpaper%E5%A3%81%E7%BA%B8/</id>
         <title>提取wallpaper静态壁纸</title>
@@ -36,8 +36,8 @@
 &lt;img data-src=&#34;success.png&#34; alt=&#34;success&#34; /&gt;&lt;br /&gt;
 &lt;img data-src=&#34;wallpaper.png&#34; alt=&#34;wallpaper&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="Wallpaper" />
         <category term="教程" />
+        <category term="Wallpaper" />
         <updated>2024-01-22T04:32:09.390Z</updated>
     </entry>
 </feed>

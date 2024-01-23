@@ -5,13 +5,13 @@
     <link href="https://yun2060.github.io" />
     <updated>2024-01-23T06:41:10.000Z</updated>
     <category term="数据结构" />
+    <category term="Hexo" />
+    <category term="教程" />
     <category term="hexo" />
     <category term="Java" />
     <category term="Wallpaper" />
-    <category term="教程" />
     <category term="Python" />
     <category term="遇到的问题" />
-    <category term="Hexo" />
     <entry>
         <id>https://yun2060.github.io/Hexo/%E4%BD%BF%E7%94%A8hexo%E5%91%BD%E4%BB%A4%E5%88%9B%E5%BB%BA%E6%96%B0%E6%96%87%E7%AB%A0/</id>
         <title>使用hexo命令创建新文章</title>
@@ -26,8 +26,8 @@
 &lt;img data-src=&#34;docs.png&#34; alt=&#34;文件分布&#34; /&gt;&lt;br /&gt;
 最后生成部署，一气呵成，但是应该有更便捷的方法，我暂时还不清楚😭，等之后再进行学习修改吧。&lt;/p&gt;
 </content>
-        <category term="教程" />
         <category term="Hexo" />
+        <category term="教程" />
         <updated>2024-01-23T06:41:10.000Z</updated>
     </entry>
     <entry>
@@ -54,8 +54,8 @@
 &lt;img data-src=&#34;success.png&#34; alt=&#34;success&#34; /&gt;&lt;br /&gt;
 &lt;img data-src=&#34;wallpaper.png&#34; alt=&#34;wallpaper&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="Wallpaper" />
         <category term="教程" />
+        <category term="Wallpaper" />
         <updated>2024-01-22T04:32:09.390Z</updated>
     </entry>
     <entry>
