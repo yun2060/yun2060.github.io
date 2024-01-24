@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title> • Posts by &#34;数据结构&#34; tag</title>
+        <title>Amos Yun的笔记空间 • Posts by &#34;数据结构&#34; tag</title>
         <link>https://yun2060.github.io</link>
         <description>欢迎来到Amos Yun的笔记空间😏在这里，你可以阅读我的学习笔记并提出独到的见解🤩欢迎互相交流学习知识，共同进步🎉</description>
         <language>zh-CN</language>
@@ -11,10 +11,12 @@
         <category>hexo</category>
         <category>Hexo</category>
         <category>教程</category>
+        <category>waline</category>
+        <category>遇到的问题</category>
         <category>Java</category>
+        <category>github</category>
         <category>Wallpaper</category>
         <category>Python</category>
-        <category>遇到的问题</category>
         <item>
             <guid isPermalink="true">https://yun2060.github.io/DataStructure/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%9D%E8%AF%86/</guid>
             <title>数据结构初识</title>

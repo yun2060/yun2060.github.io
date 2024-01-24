@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Amos Yun的笔记空间 • Posts by &#34;waline&#34; tag</title>
+        <link>https://yun2060.github.io</link>
+        <description>欢迎来到Amos Yun的笔记空间😏在这里，你可以阅读我的学习笔记并提出独到的见解🤩欢迎互相交流学习知识，共同进步🎉</description>
+        <language>zh-CN</language>
+        <pubDate>Wed, 24 Jan 2024 17:06:21 +0800</pubDate>
+        <lastBuildDate>Wed, 24 Jan 2024 17:06:21 +0800</lastBuildDate>
+        <category>数据结构</category>
+        <category>hexo</category>
+        <category>Hexo</category>
+        <category>教程</category>
+        <category>waline</category>
+        <category>遇到的问题</category>
+        <category>Java</category>
+        <category>github</category>
+        <category>Wallpaper</category>
+        <category>Python</category>
+        <item>
+            <guid isPermalink="true">https://yun2060.github.io/Hexo/%E5%B0%86shoka%E4%B8%BB%E9%A2%98%E4%B8%ADvaline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E4%B8%BAwaline%E7%B3%BB%E7%BB%9F/</guid>
+            <title>将shoka主题中valine评论系统更换为waline系统</title>
+            <link>https://yun2060.github.io/Hexo/%E5%B0%86shoka%E4%B8%BB%E9%A2%98%E4%B8%ADvaline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E4%B8%BAwaline%E7%B3%BB%E7%BB%9F/</link>
+            <category>Hexo</category>
+            <category>waline</category>
+            <category>遇到的问题</category>
+            <pubDate>Wed, 24 Jan 2024 17:06:21 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;在shoka中添增waline评论系统&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在shoka中添增waline评论系统&#34;&gt;#&lt;/a&gt; 在 Shoka 中添增 Waline 评论系统&lt;/h2&gt;
+&lt;p&gt;Shoka 主题使用的 MiniValine 是一个足够使用的评论系统，但是常说 Valine 评论系统对于安全问题欠妥，其可定制和功能也稍显不足。所以就跟着下面这篇大佬的文章，来添增 waline 评论系统。&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yeS5tay8yMDIyLzAzLzA2L3dhbGluZS8=&#34;&gt;文章链接&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;遇到的问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#遇到的问题&#34;&gt;#&lt;/a&gt; 遇到的问题&lt;/h2&gt;
+&lt;p&gt;在更换 waline 评论系统之后，我发现本地调试时没有问题，可一旦部署到 github 上后，就会出现评论区消失的情况，底部的最新评论栏也不见了。&lt;br /&gt;
+说来奇怪，在我想复现时，却怎么也无法复现了，再次刷新之后便会发现评论区又出现了。。。&lt;br /&gt;
+但是最近评论栏仍然无法显示，不知道为什么。&lt;/p&gt;
+&lt;h2 id=&#34;解决方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方法&#34;&gt;#&lt;/a&gt; 解决方法&lt;/h2&gt;
+&lt;p&gt;暂时没有好办法，等我再好好研究一下吧 /(ㄒ o ㄒ)/~~&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

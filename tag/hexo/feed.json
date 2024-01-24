@@ -1,9 +1,21 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "null • All posts by \"hexo\" tag",
+    "title": "Amos Yun的笔记空间 • All posts by \"hexo\" tag",
     "description": "欢迎来到Amos Yun的笔记空间😏在这里，你可以阅读我的学习笔记并提出独到的见解🤩欢迎互相交流学习知识，共同进步🎉",
     "home_page_url": "https://yun2060.github.io",
     "items": [
+        {
+            "id": "https://yun2060.github.io/Hexo/%E5%B0%86shoka%E4%B8%BB%E9%A2%98%E4%B8%ADvaline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E4%B8%BAwaline%E7%B3%BB%E7%BB%9F/",
+            "url": "https://yun2060.github.io/Hexo/%E5%B0%86shoka%E4%B8%BB%E9%A2%98%E4%B8%ADvaline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E4%B8%BAwaline%E7%B3%BB%E7%BB%9F/",
+            "title": "将shoka主题中valine评论系统更换为waline系统",
+            "date_published": "2024-01-24T09:06:21.000Z",
+            "content_html": "<h2 id=\"在shoka中添增waline评论系统\"><a class=\"anchor\" href=\"#在shoka中添增waline评论系统\">#</a> 在 Shoka 中添增 Waline 评论系统</h2>\n<p>Shoka 主题使用的 MiniValine 是一个足够使用的评论系统，但是常说 Valine 评论系统对于安全问题欠妥，其可定制和功能也稍显不足。所以就跟着下面这篇大佬的文章，来添增 waline 评论系统。<br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9yeS5tay8yMDIyLzAzLzA2L3dhbGluZS8=\">文章链接</span></p>\n<h2 id=\"遇到的问题\"><a class=\"anchor\" href=\"#遇到的问题\">#</a> 遇到的问题</h2>\n<p>在更换 waline 评论系统之后，我发现本地调试时没有问题，可一旦部署到 github 上后，就会出现评论区消失的情况，底部的最新评论栏也不见了。<br />\n说来奇怪，在我想复现时，却怎么也无法复现了，再次刷新之后便会发现评论区又出现了。。。<br />\n但是最近评论栏仍然无法显示，不知道为什么。</p>\n<h2 id=\"解决方法\"><a class=\"anchor\" href=\"#解决方法\">#</a> 解决方法</h2>\n<p>暂时没有好办法，等我再好好研究一下吧 /(ㄒ o ㄒ)/~~</p>\n",
+            "tags": [
+                "Hexo",
+                "waline",
+                "遇到的问题"
+            ]
+        },
         {
             "id": "https://yun2060.github.io/Hexo/%E4%BD%BF%E7%94%A8hexo%E5%91%BD%E4%BB%A4%E5%88%9B%E5%BB%BA%E6%96%B0%E6%96%87%E7%AB%A0/",
             "url": "https://yun2060.github.io/Hexo/%E4%BD%BF%E7%94%A8hexo%E5%91%BD%E4%BB%A4%E5%88%9B%E5%BB%BA%E6%96%B0%E6%96%87%E7%AB%A0/",
