@@ -38,7 +38,9 @@
         <id>https://yun2060.github.io/Hexo/%E4%BD%BF%E7%94%A8hexo%E5%91%BD%E4%BB%A4%E5%88%9B%E5%BB%BA%E6%96%B0%E6%96%87%E7%AB%A0/</id>
         <title>使用hexo命令创建新文章</title>
         <link rel="alternate" href="https://yun2060.github.io/Hexo/%E4%BD%BF%E7%94%A8hexo%E5%91%BD%E4%BB%A4%E5%88%9B%E5%BB%BA%E6%96%B0%E6%96%87%E7%AB%A0/"/>
-        <content type="html">&lt;h2 id=&#34;使用hexo命令创建新文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用hexo命令创建新文章&#34;&gt;#&lt;/a&gt; 使用 hexo 命令创建新文章&lt;/h2&gt;
+        <content type="html">&lt;h2 id=&#34;224更新&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#224更新&#34;&gt;#&lt;/a&gt; 2.24 更新&lt;/h2&gt;
+&lt;p&gt;使用 &lt;code&gt;hexo new --path &amp;quot;文章标题&amp;quot;&lt;/code&gt;  来创建新文章，这样可以直接对应路径下创建，而不需要拖入操作。&lt;/p&gt;
+&lt;h2 id=&#34;使用hexo命令创建新文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用hexo命令创建新文章&#34;&gt;#&lt;/a&gt; 使用 hexo 命令创建新文章&lt;/h2&gt;
 &lt;p&gt;之前一直都是直接创建文件夹的方式来写文章，但是会有各种各样的 bug。去网上搜了下发现直接使用 hexo 命令是最简单的方法，于是这次用 hexo 来创建新文章。&lt;/p&gt;
 &lt;h3 id=&#34;使用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用命令&#34;&gt;#&lt;/a&gt; 使用命令&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;hexo new &amp;quot;文章标题&amp;quot;&lt;/code&gt;&lt;/p&gt;
